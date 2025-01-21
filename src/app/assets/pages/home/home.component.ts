@@ -14,8 +14,7 @@ import { GlobalService } from '../../services/common/global.service';
 export class HomeComponent implements OnInit, OnDestroy {
   images: string[] = [
     'assets/images/CS.jpg',
-    'assets/images/AI.jpg',
-    'assets/images/AI2.png'
+    'assets/images/AI.jpg'
   ];
 
   currentIndex: number = 0;
