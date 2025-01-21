@@ -1,0 +1,14 @@
+<mat-toolbar class = "navBar">
+  <div class="nav-spacer" (click)="navigateTo('home')">
+    <img src="assets/images/Logonew.jpg" alt="Logo" height="45px" (click)="navigateTo('home')">
+    <span (click)="navigateTo('home')">Sahnar</span>  </div>
+  <div class="nav-container" [ngClass]="{ 'hidden': hidemenu }">
+    <button class = "nav-buttons" (click)="navigateTo('home')">Home</button>
+    <button class = "nav-buttons" (click)="navigateTo('training-internship')">Internships</button>
+    <button class = "nav-buttons" (click)="navigateTo('about')">About us</button>
+    <button class = "nav-buttons" (click)="navigateTo('contact')">Contact</button>
+  </div>
+  <button class = "navMenuButton" mat-icon-button aria-label="icon-button with menu icon" (click)="toggleNavMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>

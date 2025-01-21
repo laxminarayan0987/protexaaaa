@@ -1,0 +1,97 @@
+<div class="home">
+<div class="carousel-container" *ngIf = "!globalService.getnavMenuVisible()">
+  <div class="carousel-images">
+    <img [src]="images[currentIndex]" alt="carousel image" class="carousel-image" />
+  </div>
+
+  <div class="carousel-controls">
+    <button (click)="prevImage()" class="carousel-button"><</button>
+    <button (click)="nextImage()" class="carousel-button">></button>
+  </div>
+</div>
+
+<div class="home-content">
+  <span class = "sub-heading">Our Services</span>
+<div class="icon-list-container">
+    <div class="icon-list">
+      <img src="assets/images/artificial-intelligence4.png" width="80px">
+      <span>AI/ML Research and Development</span>
+    </div>
+
+    <div class="icon-list">
+      <img src="assets/images/artificial-intelligence2.png" width="80px">
+      <span>Custom AI Solution Development</span>
+    </div>
+
+    <div class="icon-list">
+      <img src="assets/images/ComputerVison.png" width="80px">
+      <span>Computer Vision Solutions</span>
+    </div>
+
+    <div class="icon-list">
+      <img src="assets/images/data-analyst.png" width="80px">
+      <span>Data Analytics and Insights</span>
+    </div>
+
+    <div class="icon-list">
+      <img src="assets/images/artificial-intelligence3.png" width="80px">
+      <span>Generative AI Solutions</span>
+    </div>
+
+    <div class="icon-list">
+      <img src="assets/images/artificial-intelligence.png" width="80px">
+      <span>AI SKill Development Programs</span>
+    </div>
+
+    <div class="icon-list">
+      <img src="assets/images/testing.png" width="80px">
+      <span>Vulnerability Assessment and Penetration Testing (VAPT)</span>
+    </div>
+
+    <div class="icon-list">
+      <img src="assets/images/testing2.png" width="80px">
+      <span>Network Security and Firewall Management</span>
+    </div>
+    <div class="icon-list">
+      <img src="assets/images/security.png" width="80px">
+      <span>Cybersecurity Solutions</span>
+    </div>
+
+ </div>
+<div class="home-content">
+  <span class = "sub-heading">Technologies We Use</span>
+  <div class="icon-list-container">
+    <div class="icon-list">
+      <img src="assets/images/artificial-intelligence4.png" width="80px">
+      <span>Artificial Intelligence</span>
+    </div>
+    <div class="icon-list">
+      <img src="assets/images/artificial-intelligence.png" width="80px">
+      <span>Machine Learning</span>
+    </div>
+    <div class="icon-list">
+      <img src="assets/images/artificial-intelligence2.png" width="80px">
+      <span>Chatbot</span>
+    </div>
+<div class="icon-list">
+      <img src="assets/images/security.png" width="80px">
+      <span>Penetration Testing</span>
+    </div>
+<div class="icon-list">
+      <img src="assets/images/testing2.png" width="80px">
+      <span>Blockchain Technology</span>
+    </div>
+
+  </div>
+</div>
+<div class="home-content">
+  <span class = "sub-heading">Certifications</span>
+  <div class="icon-list-container">
+    <div class="icon-list">
+      <img src="assets/images/MSME.jpg" width="80px">
+    </div>
+    <div class="icon-list">
+      <img src="assets/images/MCA.jpg" width="100px">
+    </div>
+      </div>
+</div>

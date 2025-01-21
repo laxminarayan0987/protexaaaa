@@ -1,0 +1,18 @@
+<div class="componentUs container-fluid">
+  <div class="componentGroup row">
+    <div class="col-50">
+      <span class="componentHeading">About</span>
+     <span class="componentMessage">CoatexAI transforms businesses with cutting-edge solutions that blend advanced Cybersecurity and Artificial Intelligence to meet the challenges of today and the opportunities of tomorrow. Our expertise brings together deep industry knowledge and the latest advancements in AI and cybersecurity to deliver custom, adaptable solutions that enhance user experience, secure digital environments, and optimize business operations.</span>
+    </div>
+  </div>
+  <div class="kpiCardContainer col">
+    <div [class]="cardClass" class = "d-flex" *ngFor = "let kpiCard of aboutUsKpi">
+      <div class="kpiCard content">
+        <span class = "kpiCardHeading">{{kpiCard.heading}}</span>
+        <div class = "kpiCardBody">
+          <span *ngFor = "let body of kpiCard.bodyList"><b>{{body.head}}</b>{{body.body}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

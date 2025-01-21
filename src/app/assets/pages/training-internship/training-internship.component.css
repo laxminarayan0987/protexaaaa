@@ -1,0 +1,54 @@
+.componentUs {
+  .kpiCardBody {
+    td {
+      padding: 2px 2px;
+    }
+    table {
+      background-color: #4458710d;
+      width: calc(100% + 40px);
+      margin-left: -20px;
+      padding: 0px 28px;
+      margin-top: 15px;
+      display: block;
+    }
+    tr {
+      padding: 1px 0px;
+      border-bottom: 1px solid #00000017;
+    }
+    tr:last-child {
+      border: none;
+    }
+    td span {
+        padding: 2px 4px;
+        display: block;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 10px;
+        color: #445871;
+    }
+    td span.subText {
+      font-weight: 400 !important;
+      font-size: 9px !important;
+    }
+    td span.Closed {
+        color: #ca0034 !important;
+    }
+    td span.Now.Open {
+        color: #006e32 !important;
+    }
+  }
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 768px) {
+  .componentUs {
+    .componentGroup {
+      span.componentHeading {
+        margin: 20px 0px 16px 20px;
+      }
+      span.componentMessage {
+        margin-left: 20px;
+      }
+    }
+  }
+}

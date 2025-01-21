@@ -1,0 +1,81 @@
+.nav-spacer {
+  flex: 1 1 auto;
+  font-size: 28px;
+  padding-left: 11px;
+  font-family: 'Montserrat';
+  letter-spacing: 2px;
+  font-weight: 1000;
+top: 55px;
+  color: #445871;
+  span {
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  img {
+    cursor: pointer;
+  }
+}
+
+.navBar.mat-toolbar-single-row {
+  background-color: white;
+  border-bottom: 1px solid #00000029;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.navBar {
+  .header {
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #ec6744;
+  }
+  .nav-container {
+    height: 100%;
+  }
+  button.nav-buttons {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    height: 100%;
+    font-weight: 700;
+    padding: 20px;
+    font-size: 18px;
+  }
+  button.nav-buttons:hover {
+    background-color: #13bfb563;
+  }
+  button.navMenuButton {
+    position: fixed;
+    right: 5px;
+  }
+}
+
+@media (min-width: 768px) {  /* Screen size > 768px */
+  .navBar .navMenuButton {
+    display: none;
+  }
+}
+@media (max-width: 768px) {  /* Screen size < 768px */
+  .navBar .hidden {
+    display: none;
+  }
+  .nav-container {
+    position: fixed;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    top: 55px;
+    height: 150px !important;
+    z-index: 100;
+  }
+  button.nav-buttons {
+    display: block;
+    width: 100%;
+    text-align: right;
+    height: 35px !important;
+    padding: 5px !important;
+    border-top: 2px solid #00000005 !important;
+  }
+}
