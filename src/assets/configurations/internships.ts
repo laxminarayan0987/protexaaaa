@@ -5,37 +5,19 @@ export const internship = [
     icon: "assets/images/artificial-intelligence4.png",
   },
   {
-    name : "AI/ML Intern with Front-end Development",
+    name : "AI/ML Intern",
     description : "Dive into the world of Python, versatile and powerful programming language.",
-    icon: "assets/images/artificial-intelligence2.png",
+    icon: "assets/images/artificial-intelligence.png",
   },
   {
-    name : "GenAI intern",
+    name : "Generative AI intern",
     description : "Dive into the world of Python, versatile and powerful programming language.",
     icon: "assets/images/artificial-intelligence3.png",
   },
   {
-    name : "Computer Vison Intern",
-    description : "Dive into the world of Python, versatile and powerful programming language.",
-    icon: "assets/images/ComputerVison.png",
-
-  },
-  {
-    name : "Data Analyst",
+    name : "Data Analyst Intern",
     description : "Dive into the world of Python, versatile and powerful programming language.",
     icon: "assets/images/data-analyst.png",
-
-  },
-  {
-    name : "Machine Learning Intern",
-    description : "Dive into the world of Python, versatile and powerful programming language.",
-    icon: "assets/images/artificial-intelligence.png",
-
-  },
-  {
-    name : "CyberAI Intern",
-    description : "Dive into the world of Python, versatile and powerful programming language.",
-    icon: "assets/images/artificial-intelligence5.png",
 
   },
 {
