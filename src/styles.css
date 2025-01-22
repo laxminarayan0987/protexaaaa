@@ -95,6 +95,7 @@ body {
         line-height: 20px;
         height: calc(100% - 130px);
 	     text-align: center;
+       align: center;
 	     text-justify: inner-word;
       }
 
