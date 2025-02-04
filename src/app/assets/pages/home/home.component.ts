@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   images: string[] = [
     'assets/images/CS.jpg',
     'assets/images/AI.jpg'
+    'assets/images/AI 34.jpg'
+  'assets/images/AI 44.jpg'
   ];
 
   currentIndex: number = 0;
