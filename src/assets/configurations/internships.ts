@@ -1,6 +1,6 @@
 export const internship = [
   {
-    name : "AI/ML Research Intern",
+    name : "Python Developer Intern",
     description : "Learn the Fundamentals and Grow Your Generative AI (GenAI) Skill Set.",
     icon: "assets/images/artificial-intelligence4.png",
   },
