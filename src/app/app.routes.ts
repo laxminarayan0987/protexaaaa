@@ -9,6 +9,6 @@ export const routes: Routes = [
   { path: 'home', component: HomeComponent },  // Default route
   { path: 'about', component: AboutUsComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'career', component: TrainingInternshipComponent },
+  { path: 'training-internship', component: TrainingInternshipComponent },
   { path: '**', redirectTo: 'home' }  // Wildcard route for a 404 page
 ];
