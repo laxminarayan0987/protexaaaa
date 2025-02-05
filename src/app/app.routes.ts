@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { AboutUsComponent } from './assets/pages/about-us/about-us.component';
 import { ContactComponent } from './assets/pages/contact/contact.component'
 import { LandingPageComponent } from './assets/pages/landing-page/landing-page.component'
-import { TrainingInternshipComponent } from './assets/pages/career/training-internship.component'
+import { TrainingInternshipComponent } from './assets/pages/training-internship/training-internship.component'
 import { HomeComponent } from './assets/pages/home/home.component'
 
 export const routes: Routes = [
