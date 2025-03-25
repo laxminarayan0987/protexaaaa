@@ -28,7 +28,7 @@ export class AboutUsComponent {
         },
         {
           head: "4. Generative AI Integration:  ",
-          body: "CoatexAI helps businesses incorporate Generative AI into their workplaces, enabling creative solutions like content generation, chatbots, and automated insights. "
+          body: "Sahnar Technologies Private Limited helps businesses incorporate Generative AI into their workplaces, enabling creative solutions like content generation, chatbots, and automated insights. "
         },
         {
           head: "5. Data Analytics & Insights:  ",
@@ -48,7 +48,7 @@ export class AboutUsComponent {
         },
 	{
           head: "9. NexGenAI Solutions:  ",
-          body: "At CoatexAI, we specialize in transforming the latest advancements in Generative AI and Deep Learning into real-world solutions, empowering a diverse range of industries, including Retail, Tourism, Publishing, Sports & Fitness, Customer Support, Education, and Job Training. "
+          body: "At Sahnar Technologies Private Limited, we specialize in transforming the latest advancements in Generative AI and Deep Learning into real-world solutions, empowering a diverse range of industries, including Retail, Tourism, Publishing, Sports & Fitness, Customer Support, Education, and Job Training. "
         },
         {
           head: "10. Research Related to AI and Cyber Security:  ",
